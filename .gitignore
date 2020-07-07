@@ -1,0 +1,25 @@
+.idea
+*.csr
+*.der
+/release/darwin-amd64
+/release/linux-amd64
+/release/linux-ppc64le
+/release/linux-s390x
+/release/windows-amd64
+bin
+build
+coverage.xml
+fabric-ca-server-config.yaml
+profile.cov
+report.xml
+results.txt
+testdata/ec_cert.pem
+testdata/fabric*ca.db
+testdata/fabric-ca-cert.pem
+testdata/fabric-ca-key.pem
+testdata/initFabricCaFvt.json
+testdata/openssl.cnf.base.this
+testdata/runFabricCaFvt.json
+vendor/github.com/cloudflare/cfssl/vendor/github.com/cloudflare/cfssl_trust/ca-bundle/http:*.crt
+# tox
+.tox/
